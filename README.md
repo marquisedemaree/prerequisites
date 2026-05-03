@@ -29,16 +29,24 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
+## Windows Setup (Winget)
 
-## Step 0. Install Homebrew (Mac only)
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+1. Install Git
+```
+winget install --id Git.Git -e
+```
 
-### Step 1. Install Git
-- Mac: `$ brew install git`
-- Windows: `winget install --id Git.Git -e --source winget`
+2. Install Python
+```
+winget install Python.Python.3
+```
 
-### Step 2. Install the latest version of Python
-- Mac:
-  - Update Brew: `brew update`
-  - Install: `brew install python`
-- Windows: `winget install Python.Python.3`
+3. Create a Virtual Environment
+```
+python3 -m venv .venv
+```
+
+4. Activate the Virtual Environment
+```
+.venv\Scripts\activate
+```
