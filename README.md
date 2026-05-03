@@ -9,8 +9,25 @@ Copy code snippets and run from the command-line.
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
+2. Install Git
+```
+$ brew install git
+```
 
+3. Install Python
+```
+brew install python
+```
 
+4. Create a Virtual Environment
+```
+python3 -m venv .venv
+```
+
+5. Active Virtual Environment
+```
+source .venv/bin/activate
+```
 
 
 ## Step 0. Install Homebrew (Mac only)
