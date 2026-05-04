@@ -1,6 +1,6 @@
 # Prerequisites
 These instructions help you install Python 3 and required tools for running projects.
-Copy code snippets and run from the command-line.
+Copy code snippets and run from the command line.
 
 ## Mac Setup (Homebrew)
 
